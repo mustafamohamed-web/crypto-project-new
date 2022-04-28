@@ -19,8 +19,7 @@
 
 .img-main {
   width: 700px;
-  height: 500px;
-  object-fit: cover;
+  height: 600px;
 }
 
 h1 {
@@ -28,6 +27,6 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5em;
 }
