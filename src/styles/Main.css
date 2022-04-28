@@ -1,0 +1,33 @@
+.main-container {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid white; */
+  margin-top: 30px;
+}
+
+.info {
+  border: 1px solid black;
+  /* width: 300px; */
+  text-align: left;
+  padding-left: 100px;
+}
+
+.image {
+  margin-right: 100px;
+}
+
+.img-main {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
