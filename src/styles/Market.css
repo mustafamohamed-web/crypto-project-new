@@ -1,3 +1,70 @@
 body {
   color: white;
 }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+input {
+  position: relative;
+  left: 570px;
+  height: 30px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.coin-symbol {
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.coin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  width: 900px;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+
+  min-width: 300px;
+}
+
+.coin-info {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price-change-green {
+  color: green;
+}
+
+.price-change-red {
+  color: red;
+}
