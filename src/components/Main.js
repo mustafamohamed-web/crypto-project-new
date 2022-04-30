@@ -1,12 +1,10 @@
 import React from "react";
 import "..//styles/Main.css";
 import img from "../assests/main-2.png";
-import Nav from "./Nav";
 
 const Main = () => {
   return (
     <div className="main-container">
-      {/* <Nav /> */}
       <div className="info">
         <h1>
           Find your <br /> Own unique <br /> Investments

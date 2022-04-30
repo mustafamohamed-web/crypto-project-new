@@ -4,7 +4,7 @@ import axios from "axios";
 
 const Market = () => {
   const [data, setData] = useState([]);
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState("");
 
   //INPUT SEARCH
   const handleInput = (e) => {
@@ -41,13 +41,13 @@ const Market = () => {
           <div className="coin-container">
             <div className="row">
               <div className="coin">
-                <img src={info.image} alt="" />
+                <img className="coin-img" src={info.image} alt="" />
                 <p className="coin-name">{info.name}</p>
                 {/* <p className="coin-symbol">{info.symbol}</p> */}
               </div>
               <div className="coin-info">
-                <p>${info.current_price}</p>
-                <p>${info.max_supply}</p>
+                <p className="price">${info.current_price}</p>
+                <p className="volume">${info.total_volume.toLocaleString()}</p>
                 {info.price_change_percentage_24h < 0 ? (
                   <p className="price-change-red">
                     {info.price_change_percentage_24h.toFixed(2)}%
@@ -57,7 +57,9 @@ const Market = () => {
                     {info.price_change_percentage_24h.toFixed(2)}%
                   </p>
                 )}
-                <p>Mkt Cap:{info.market_cap}</p>
+                <p className="mcKap">
+                  Mkt Cap:{info.market_cap.toLocaleString()}
+                </p>
               </div>
             </div>
           </div>

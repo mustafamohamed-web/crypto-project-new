@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <div className="nav-container">
       <div className="nav-card">
-        <img src={img} alt="" />
+        <img className="logo" src={img} alt="" />
         <nav>
           <ul>
             <li>
@@ -18,7 +18,7 @@ const Nav = () => {
               <Link to="/market">Market</Link>
             </li>
             <li>
-              <Link to="/about us">About Us</Link>
+              <Link to="/sign up">Sign up</Link>
             </li>
           </ul>
         </nav>

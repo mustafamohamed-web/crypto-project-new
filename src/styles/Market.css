@@ -14,12 +14,12 @@ input {
   width: 300px;
 }
 
-h1 {
+/* h1 {
   font-size: 16px;
   width: 150px;
-}
+} */
 
-img {
+.coin-img {
   height: 30px;
   width: 30px;
   margin-right: 10px;
@@ -43,7 +43,7 @@ img {
   justify-content: start;
   align-items: center;
   height: 80px;
-  width: 900px;
+  width: 1000px;
 }
 
 .coin {
@@ -61,10 +61,23 @@ img {
   width: 100%;
 }
 
+.price {
+  width: 110px;
+}
+
+.mcKap {
+  width: 230px;
+}
+
+.volume {
+  width: 155px;
+}
 .price-change-green {
   color: green;
+  width: 100px;
 }
 
 .price-change-red {
   color: red;
+  width: 100px;
 }
