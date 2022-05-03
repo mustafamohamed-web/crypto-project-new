@@ -1,8 +1,8 @@
 import React from "react";
-import img from "../assests/logo.png";
-import "../styles/Nav.css";
+import img from "../../assests/logo.png";
+import "../../styles/Nav.css";
 import { Link } from "react-router-dom";
-import Main from "./Main";
+import Main from "../Main";
 
 const Nav = () => {
   return (
@@ -18,7 +18,7 @@ const Nav = () => {
               <Link to="/market">Market</Link>
             </li>
             <li>
-              <Link to="/sign up">Sign up</Link>
+              <Link to="/sign ">Sign up</Link>
             </li>
           </ul>
         </nav>
