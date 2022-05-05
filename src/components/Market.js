@@ -34,7 +34,7 @@ const Market = () => {
   return (
     <div>
       <h2>Search currency</h2>
-      <input type="text" onChange={handleInput} />
+      <input className="search-input" type="text" onChange={handleInput} />
 
       {filteredData.slice(0, 10).map((info) => {
         return (
