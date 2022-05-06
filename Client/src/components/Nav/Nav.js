@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../assests/logo.png";
 import "../../styles/Nav.css";
 import { Link } from "react-router-dom";
-import Main from "../Main";
+import Main from "../../components/Main";
 
 const Nav = () => {
   return (
@@ -23,7 +23,7 @@ const Nav = () => {
           </ul>
         </nav>
       </div>
-      <button>Connect Wallet</button>
+      <button></button>
     </div>
   );
 };
